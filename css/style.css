@@ -12,9 +12,14 @@
     transition: all .2s linear;
 }
 
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
 
 body{
-    background: #eee;
+    background: hsl(40, 100%, 92%);
 }
 
 section{
@@ -52,6 +57,7 @@ section{
 .btn:hover{
     background:rgb(34, 99, 34);
     color: #fff;
+    transition: 2s;
 }
 
 .header{
@@ -78,6 +84,11 @@ section{
     color: #eee;
 }
 
+.header .navbar a:hover{
+    color: rgb(34, 99, 34);
+    transition: 2s;
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -88,7 +99,9 @@ section{
     padding-top: 15rem;
     padding-bottom: 5rem;
 }
-
+marquee{
+    color: #eee;
+}
 .home .content{
     width: 60rem;
     padding-left: 35rem;
