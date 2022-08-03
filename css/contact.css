@@ -10,7 +10,7 @@
 }
 .contact {
   position: relative;
-  min-height: 100vh;
+  min-height: 98.5vh;
   padding: 50px 100px;
   display: flex;
   justify-content: center;
@@ -39,6 +39,20 @@
   font-weight: 100;
   color: black;
 }
+.rtn-btn {
+  text-transform: capitalize;
+  list-style: none;
+  padding: 0;
+  line-height: 80%;
+  background-color: rgb(34, 99, 34);
+}
+.rtn-btn a{
+  color: #eee;
+  text-decoration: none;
+  font-weight: 1rem;
+  margin-left: 2rem;
+}
+
 .container {
   width: 100%;
   display: flex;
